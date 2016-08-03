@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-08-03T11:09:26-06:00">2016-08-03T11:09:26-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-08-03T11:25:31-06:00">2016-08-03T11:25:31-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.02
+         3.91
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>18</b> files in total.
-    <b>49</b> relevant lines. 
-    <span class="green"><b>49</b> lines covered</span> and
+    <b>19</b> files in total.
+    <b>63</b> relevant lines. 
+    <span class="green"><b>63</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -91,13 +91,23 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#7eb312109fcf4b99007ab3fd778c5f3f11ca21cd" class="src_link" title="app/models/close_store.rb">app/models/close_store.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>23</td>
+        <td>14</td>
+        <td>14</td>
+        <td>0</td>
+        <td>13.6</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#488d7046027ad309102d0504a7845ae9d8eadb97" class="src_link" title="app/services/best_buy_service.rb">app/services/best_buy_service.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>22</td>
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>1.1</td>
+        <td>1.7</td>
       </tr>
       
       <tr>
@@ -366,6 +376,162 @@
   </pre>
 </div>
       
+        <div class="source_table" id="7eb312109fcf4b99007ab3fd778c5f3f11ca21cd">
+  <div class="header">
+    <h3>app/models/close_store.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>14</b> relevant lines. 
+      <span class="green"><b>14</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class CloseStore</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_reader :long_name, :city, :distance, :phone, :store_type</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def initialize(data)</code>
+        </li>
+      
+        <li class="covered" data-hits="30" data-linenumber="5">
+          <span class="hits">30</span>
+          
+          <code class="ruby">    @long_name  = data[&quot;longName&quot;]</code>
+        </li>
+      
+        <li class="covered" data-hits="30" data-linenumber="6">
+          <span class="hits">30</span>
+          
+          <code class="ruby">    @city       = data[&quot;city&quot;]</code>
+        </li>
+      
+        <li class="covered" data-hits="30" data-linenumber="7">
+          <span class="hits">30</span>
+          
+          <code class="ruby">    @distance   = data[&quot;distance&quot;]</code>
+        </li>
+      
+        <li class="covered" data-hits="30" data-linenumber="8">
+          <span class="hits">30</span>
+          
+          <code class="ruby">    @phone      = data[&quot;phone&quot;]</code>
+        </li>
+      
+        <li class="covered" data-hits="30" data-linenumber="9">
+          <span class="hits">30</span>
+          
+          <code class="ruby">    @store_type = data[&quot;storeType&quot;]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.service</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="13">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    @@service = BestBuyService.new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.all(zipcode)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="17">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    raw_data = service.close_stores(zipcode)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="18">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    raw_data[&quot;stores&quot;].map do |store_data|</code>
+        </li>
+      
+        <li class="covered" data-hits="30" data-linenumber="19">
+          <span class="hits">30</span>
+          
+          <code class="ruby">      CloseStore.new(store_data)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="488d7046027ad309102d0504a7845ae9d8eadb97">
   <div class="header">
     <h3>app/services/best_buy_service.rb</h3>
@@ -398,8 +564,8 @@
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="4">
+          <span class="hits">2</span>
           
           <code class="ruby">    @_connection = Faraday.new(&quot;https://api.bestbuy.com&quot;)</code>
         </li>
@@ -422,8 +588,8 @@
           <code class="ruby">  def close_stores(zipcode)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
           
           <code class="ruby">    _connection.params = {&quot;format&quot; =&gt; &quot;json&quot;,</code>
         </li>
@@ -446,14 +612,14 @@
           <code class="ruby">                          &quot;pageSize&quot; =&gt; &quot;15&quot;}</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="12">
+          <span class="hits">2</span>
           
           <code class="ruby">    response = _connection.get(&quot;/v1/stores(area(#{zipcode},25))&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="13">
+          <span class="hits">2</span>
           
           <code class="ruby">    JSON.parse(response.body)</code>
         </li>
@@ -488,8 +654,8 @@
           <code class="ruby">  def _connection</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="19">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="19">
+          <span class="hits">4</span>
           
           <code class="ruby">    @_connection</code>
         </li>
