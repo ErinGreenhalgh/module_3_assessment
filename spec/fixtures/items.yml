@@ -2,3 +2,8 @@ pizza:
   name: pizza
   description: delicious
   image_url: https://robohash.org/KUL.png?set=set1&size=150x150
+
+calzone:
+  name: calzone
+  description: so great
+  image_url: https://robohash.org/KUL.png?set=set1&size=150x150
