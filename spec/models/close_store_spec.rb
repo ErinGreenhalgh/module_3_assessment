@@ -12,8 +12,18 @@ RSpec.describe "close store" do
       expect(store.distance).to eq(3.25)
       expect(store.phone).to eq("303-270-9189")
       expect(store.store_type).to eq("Mobile")
+      expect(store.id).to eq 2740
     end
   end
 
-  
+  scenario "gets a single store" do
+    VCR.use_cassette("single_store") do
+      id = 2740
+      store = CloseStore.find(id)
+      expect(store.id).to eq 2740
+      expect(store.name).to eq "Cherry Creek Shopping Center" 
+    end
+  end
+
+
 end
