@@ -13,6 +13,10 @@ class BestBuyService
     JSON.parse(response.body)
   end
 
+  def single_store(zipcode)
+    
+  end
+
 
   private
   def _connection
