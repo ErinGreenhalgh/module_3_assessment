@@ -14,4 +14,6 @@ RSpec.describe "close store" do
       expect(store.store_type).to eq("Mobile")
     end
   end
+
+  
 end

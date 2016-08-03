@@ -20,4 +20,9 @@ class CloseStore
     end
   end
 
+  def self.total(zipcode)
+    raw_data = service.close_stores(zipcode)
+    raw_data["total"]
+  end
+
 end
