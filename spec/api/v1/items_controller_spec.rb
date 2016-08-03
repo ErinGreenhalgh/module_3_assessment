@@ -36,10 +36,10 @@ RSpec.describe "api::v1::items_controller" do
   end
 
   scenario "it creates an item" do
-    item_params = {name: "New Item", description: "so great", image_url: "www.exmaple.com"}
+    item_params = {name: "New Item", description: "so great", image_url: "www.example.com"}
     expect(Item.count).to eq 2
 
-    post "/api/v1/items", params: {item: item_params}
+    post "/api/v1/items", item: item_params
 
     data = JSON.parse(response.body)
     expect(response).to have_http_status(201)

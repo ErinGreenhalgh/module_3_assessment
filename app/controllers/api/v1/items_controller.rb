@@ -13,7 +13,6 @@ class Api::V1::ItemsController < ApplicationController
   end
 
   def create
-    byebug
     render json: Item.create(item_params), status: 201
   end
 
