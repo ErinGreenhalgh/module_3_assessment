@@ -160,6 +160,12 @@
         1,
         1,
         1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/helpers/application_helper.rb": [
@@ -178,14 +184,35 @@
         1,
         null
       ],
-      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/controllers/items_controller.rb": [
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/models/item.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/controllers/api/v1/items_controller.rb": [
         1,
         1,
         1,
         null,
         null,
         1,
-        0,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -196,13 +223,12 @@
         1,
         null
       ],
-      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/models/item.rb": [
-        1,
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/serializers/item_serializer.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1470195252
+    "timestamp": 1470240417
   }
 }
