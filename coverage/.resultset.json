@@ -1,0 +1,208 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/application.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/boot.rb": [
+        null,
+        1,
+        null,
+        1
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/assets.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
+        1
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/session_store.rb": [
+        null,
+        null,
+        1
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/config/routes.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/helpers/items_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/helpers/orders_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/controllers/items_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/ErinGreenhalgh/turing/3module/assessment/storedom/app/models/item.rb": [
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1470195252
+  }
+}
